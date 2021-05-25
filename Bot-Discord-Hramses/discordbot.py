@@ -312,6 +312,6 @@ async def play(ctx,*, url):
 @tasks.loop(seconds=20)
 async def change_status():
     await client.change_presence(activity=discord.Game(choice(status)))
-bot.run('ODQzMjQwNjg3NTc0NDUwMjA2.YKA_Fg.XJXh9Oe7KdxhRSTzFWVzQB1UOKk')
+bot.run('TOKEN')
 
 
